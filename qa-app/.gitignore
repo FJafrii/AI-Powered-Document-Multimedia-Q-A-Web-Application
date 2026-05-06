@@ -1,0 +1,17 @@
+# Sensitive files
+**/.env
+
+# Python junk
+**/__pycache__/
+*.pyc
+
+# Local data/databases
+**/vectorstore/
+**/db_faiss/
+*.faiss
+*.pkl
+
+# Frontend junk
+**/node_modules/
+dist/
+build/
